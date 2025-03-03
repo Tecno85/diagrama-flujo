@@ -3,149 +3,134 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Teoria General de Sistemas</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Proceso Organizacional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Iceland&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="/assetes/icons/sailboat.png">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Anta&family=Baumans&family=Blinker:wght@100;200;300;400;600;700;800;900&family=Bungee+Shade&family=Edu+SA+Beginner:wght@400..700&family=Edu+TAS+Beginner:wght@400..700&family=Genos:ital,wght@0,100..900;1,100..900&family=Iceland&family=Quicksand:wght@300..700&family=Rubik+Doodle+Shadow&family=Rubik+Marker+Hatch&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="/assetes/styles/styles.css" />
   </head>
+
   <body>
-    <header>
-      <h1>Teoría General de Sistemas (TGS)</h1>
-    </header>
     <main>
-      <article class="concepto">
-        <section class="texto-concepto">
-          <h2>Qué es la Teoría General de Sistemas</h2>
-          <p>
-            La TGS fue propuesta por Ludwig von Bertalanffy en los años 40 y
-            busca estudiar los sistemas desde un enfoque global e
-            interdisciplinario. En lugar de analizar las partes de forma
-            aislada, la teoría considera la relación entre ellas para entender
-            su funcionamiento como un todo.
-          </p>
-          <p>El todo es más que la suma de sus partes.” – Bertalanffy</p>
-        </section>
-        <img
-          src="assetes/img/Ludwig-von-Bertalanffy.webp"
-          alt="Ludwig von Bertalanffy"
-        />
+      <article class="portada">
+        <h1>Identificación Proceso Organizacional</h1>
+        <p>Aprendiz: Ivan Dario Madrid Daza</p>
+        <p>Instructor: Alejandro Zabala Díaz</p>
+        <p>Valledupar - Cesar</p>
+        <p>Análisis y Desarrollo de Software - SENA</p>
       </article>
-
-      <article class="principios">
-        <img src="assetes/img/principios-teoria-sistemas.webp" alt="" />
-        <section class="texto-principios">
-          <h2>Principios Fundamentales de la TGS</h2>
-          <p>
-            <b>Totalidad:</b> El sistema debe de estudiarse en su conjunto, no
-            solo sus partes.
-          </p>
-          <p>
-            <b>Interrelación:</b> Los elementos dentro del sistemas están
-            interconectados.
-          </p>
-          <p>
-            <b>Homeostasis:</b> Los sistemas buscan mantenerce en equilibrio.
-          </p>
-          <p>
-            <b>Entropía:</b> Sin energía externa, los sistemas tienden al
-            desorden.
-          </p>
-          <p>
-            <b>Retroalimentación:</b> Los sistemas ajustan su comnportamiento
-            según la información recibida.
-          </p>
-        </section>
+      <article class="introduccion">
+        <h2>Introducción</h2>
+        <p>
+          La Teoría General de Sistemas (TGS) permite analizar un sistema de
+          información como un conjunto interconectado de elementos que trabajan
+          juntos para lograr un objetivo común. En este informe, se estudiará un
+          aplicativo de alarmas, detallando sus componentes, relaciones y
+          técnicas de análisis de procesos.
+        </p>
       </article>
+      <article class="elementos-mapa-conceptual">
+        <h2>Elementos del Sistema de Información</h2>
+        <p>
+          Un sistema de información está compuesto por varios elementos
+          interdependientes. En este caso de la aplicación que nos permite
+          controlar el sistema de alarmas, los elementos clave incluyen:
+        </p>
+        <b><p>Actores del Sistema</p></b>
+        <li>
+          Usuarios Finales: Personas que configuran y reciben las alarmas.
+        </li>
+        <li>
+          Administradores: Responsables del mantenimiento y soporte del
+          aplicactivo.
+        </li>
+        <li>
+          Desarrolladores: Encargados de implementar mejoras y solucionar
+          fallos.
+        </li>
+        <li>
+          Dispositivos Inteligentes: Smartphones, tables y otras dispositivos
+          conectados que ejecutan las alarmas.
+        </li>
 
-      <article class="tipos-sistemas">
-        <h2>Tipos de Sistemas</h2>
-        <section class="sistemas">
-          <section class="sistemas-abiertos">
-            <h3>Sistemas Abiertos</h3>
-            <img src="assetes/img/sistama-abierto.webp" alt="" />
-            <p>
-              Intercambian información, energía o materia con su entorno.
-              Ejemplo: Una empresa, un ecosistema o el cuerpo humano.
-            </p>
-          </section>
-          <section class="sistemas-cerrados">
-            <h3>Sistemas Cerrados</h3>
-            <img src="assetes/img/sistema-cerrado.webp" alt="" />
-            <p>
-              No tienen interacción con el entorno. Ejemplo: Un reloj mecánico o
-              una ecuación matemática.
-            </p>
-          </section>
-        </section>
+        <b><p>Subsistemas</p></b>
+        <li>
+          Interfaz de usuario (frontend): Permite a los usuarios configurar y
+          gestionar sus alarmas.
+        </li>
+        <li>
+          Servidor (backend): Procesa las solicitudes, almacena configuraciones
+          y gestiona notificaciones.
+        </li>
+        <li>
+          Base de datos: Almacena la configuración de alarmas, horarios y
+          preferencias del usuario.
+        </li>
+        <li>
+          Sistema de notificación: Envía alertas a los dispositivos
+          configurados.
+        </li>
       </article>
-
-      <article class="aplicaciones">
-        <h2>Aplicaciones de la TGS en Diferentes Ámbitos</h2>
-        <section class="texto-imagen">
-          <section class="texto-aplicaciones">
-            <p>
-              <b>Biología:</b> Estudia a los organismo vivos como sistemas
-              interconectados.
-            </p>
-            <p>
-              <b>Administración:</b> Se usa en la gestión organizacional para
-              mejorar la eficiencia.
-            </p>
-            <p>
-              <b>Ecología:</b> Analiza los ecosistemas como sistemas dinámicos.
-            </p>
-            <p>
-              <b>Tecnología:</b> Se aplica en informática para el diseño de
-              redes y software.
-            </p>
-            <p>
-              <b>Ciencias Sociales:</b> Permite entender la interacción de los
-              individuos en sociedades
-            </p>
-          </section>
-          <section class="imagen-aplicaciones">
-            <img src="assetes/img/aplicaciones.webp" alt="" />
-          </section>
+      <article class="elementos-mapa-conceptual">
+        <b><p>Relaciones entre los Elementos</p></b>
+        <li>Un usuario configura una nueva alarma a través del frontend.</li>
+        <li>El backend almacena la información en la base de datos.</li>
+        <li>
+          Cuando llega la hora programada, el sistema de notificación activa la
+          alarma en el dispositivo del usuario.
+        </li>
+        <li>
+          El usuario puede modificar o eliminar alarmas en cualquier momento.
+        </li>
+        <li>
+          Los administradores supervisan el correcto funcionamiento del
+          aplicativo.
+        </li>
+        <section class="diagrama-texto">
+          <p>Diagrama de Flujo</p>
+          <a
+            href="/assetes/img/procesos-organizacionales.webp"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="/assetes/img/procesos-organizacionales.webp"
+              alt="Icono Diagrama"
+          /></a>
         </section>
-      </article>
-
-      <article class="elementos-claves">
-        <section class="img-elementos">
-          <img src="assetes/img/elementos-claves.webp" alt="" />
-        </section>
-        <section class="texto-elementos">
-          <h2>Elementos Claves de un Sistemas</h2>
-          <p><b>Entrada (Input):</b> Información o recursos que ingresan al sistema.</p>
-          <p><b>Proceso (Throughput):</b> Transformación de la entrada en una salida utíl.</p>
-          <p><b>Salida (Output):</b> Resultados obtenidos depués del proceso.</p>
-          <p>
-            <b>Retroalimentación (Enviroment):</b> Evaluación del sistema para mejorar su
-            rendimiento.
-          </p>
-          <p>
-            <b>Ejemplo:</b> En una empresa, la entrada son los insumos, el proceso es
-            la producción, la salida es el producto final y la retroalimentación
-            son los datos de satisfacción del cliente.
-          </p>
-        </section>
+        <h2 class="referencias">Referencias</h2>
+        <li>https://fonts.google.com/</li>
+        <li>https://chatgpt.com/</li>
+        <li>https://color.adobe.com/es/trends/Illustration</li>
+        <li>https://app.diagrams.net/</li>
+        <li>https://zajuna.sena.edu.co/zajuna/mod/page</li>
       </article>
     </main>
+
     <footer>
       <article class="icon">
         <section class="github">
-          <a href="https://github.com/Tecno85/fase_analisis" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-alt"></i> GitHub</a>
+          <a
+            href="https://github.com/Tecno85/fase_analisis"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-github-alt"></i> GitHub</a
+          >
         </section>
         <section class="linkedin">
-          <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a
+            href="https://www.linkedin.com/feed/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+          >
         </section>
       </article>
       <article class="created-by">

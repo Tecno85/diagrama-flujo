@@ -1,0 +1,204 @@
+
+:root {
+    --font-global: "Genos", serif;
+    --font-title-icon: "Iceland", serif;
+    --font-title-footer: "Tourney", serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #022340;
+    background-color: #0D0D0D;
+    background-color: #262626;
+    background-color: #023e73;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-global);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.2px;
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 40px;
+    max-width: 800px;
+    max-height: 1200px;
+    padding: 85px;
+    border: 2px solid rgba(255, 255, 255, 0.767);
+    border-radius: 0.3rem;
+}
+
+.portada h1 {
+
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.portada p {
+    font-size: 24px;
+}
+
+.introduccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    max-width: 625px;
+    max-height: 1200px;
+    padding: 40px;
+    border: 2px solid #BFBFBD;
+    border-radius: 0.3rem;
+    letter-spacing: 1.5px;
+}
+
+.introduccion h2 {
+    font-size: 26px;
+    padding-bottom: 10px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+.introduccion p {
+    font-size: 21px;
+    line-height: 30px;
+    margin-bottom: 200px;
+}
+
+.elementos-mapa-conceptual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    max-width: 625px;
+    max-height: 1200px;
+    padding: 40px;
+    border: 2px solid #BFBFBD;
+    border-radius: 0.3rem;
+    letter-spacing: 1.2px;
+}
+
+.elementos-mapa-conceptual h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+.elementos-mapa-conceptual p {
+    display: flex;
+    gap: 30px;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.elementos-mapa-conceptual a {
+    display: flex;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.elementos-mapa-conceptual b {
+    font-size: 18px;
+}
+
+.elementos-mapa-conceptual li {
+    font-size: 19px;
+}
+
+.diagrama-texto {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.diagrama-texto p {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.diagrama-texto img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0;
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+.referencias {
+    padding: 0;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px 40px;
+    border-top: none;
+    border-radius: 0.4rem;
+    gap: 6px;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .github a {
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .linkedin a {
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .icon {
+    font-size: 20px;
+    font-family: var(--font-title-icon);
+  }
+  
+  .created-by {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-title-footer);
+    font-size: 17px;
+    font-weight: 550;
+    gap: 10px;
+  }
+  
+  .created-by i {
+    font-size: 20px;
+  }
