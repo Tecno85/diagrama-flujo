@@ -26,6 +26,8 @@ main {
     letter-spacing: 1.2px;
 }
 
+/* Portada */ 
+
 .portada {
     display: flex;
     flex-direction: column;
@@ -33,7 +35,7 @@ main {
     align-items: center;
     gap: 100px;
     margin-top: 40px;
-    max-width: 800px;
+    width: 625px;
     max-height: 1200px;
     padding: 85px;
     border: 2px solid rgba(255, 255, 255, 0.767);
@@ -41,7 +43,6 @@ main {
 }
 
 .portada h1 {
-
     font-weight: 400;
     font-size: 26px;
 }
@@ -49,6 +50,8 @@ main {
 .portada p {
     font-size: 24px;
 }
+
+/* Introducción */
 
 .introduccion {
     display: flex;
@@ -149,6 +152,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.titulo-referencias h2 {
+margin-bottom: 20px;
+
 }
 
 /* Footer */
